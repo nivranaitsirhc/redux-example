@@ -12,7 +12,7 @@
 
 # Structure
 - Store Structure<br>
-```json
+```javascript
 {
     bug : [
         {
@@ -25,7 +25,7 @@
 ```
 
 - Action structure <br>
-```json
+```javascript
 {
     type: "bugAdded",
     payload: {
@@ -50,7 +50,7 @@
 ```
 - Reducer 
 
-```json
+```javascript
 //BugAdded
 {
     ...state,
