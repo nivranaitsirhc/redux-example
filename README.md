@@ -1,7 +1,7 @@
 # BugTracker App (using redux)
 
 - Design the store
-- Define the actins
+- Define the actions
 - Create a reducer
 - Setup the store
 
@@ -63,7 +63,7 @@
 
 //BugResolved
 {
-    ...state.map(bug=>bug.id !== bug.id ? bug: {..bug,resolved:true})
+    ...state.map(bug=>bug.id !== bug.id ? bug: {...bug,resolved:true})
 }
 
 //BugRemoved
